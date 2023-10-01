@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="<%= project.title %> - <%= project.description %>">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= project.title %> - My Projects</title>
+    <style>
+        /* Add project-specific CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: right;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff9900;
+        }
+
+        .project {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+
+        .project h3 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .project p {
+            font-size: 16px;
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+
+        .project a {
+            text-decoration: none;
+            color: #333;
+            margin: 10px 0;
+            display: block;
+            font-weight: bold;
+        }
+
+        .project a:hover {
+            color: #ff9900;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="project">
+        <h3><%= project.title %></h3>
+        <p><%= project.description %></p>
+        <img src="<%= project.imageUrl %>" alt="<%= project.title %>">
+        <p>
+            <a href="<%= project.githubUrl %>">GitHub</a> |
+            <a href="<%= project.appStoreUrl %>">App Store</a>
+        </p>
+    </section>
+    
+    <!-- More content for the project page, if needed -->
+    
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,239 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#hero {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#hero h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+#hero h2 {
+    font-size: 20px;
+    color: #666;
+}
+
+.job {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.job h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.job p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.job ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+#education, #skills, #languages {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+#education h3, #skills h3, #languages h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+#education p, #languages p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style links in the navigation menu */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s; /* Add a smooth color transition effect */
+}
+
+nav ul li a:hover {
+    color: #ff9900; /* Change color on hover */
+}
+
+/* Style the "View My Projects" link */
+#hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#hero a:hover {
+    background-color: #333; /* Change background color on hover */
+}
+
+/* Style the footer */
+footer a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add an underline on hover */
+}
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#hero {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#hero h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+#hero h2 {
+    font-size: 20px;
+    color: #666;
+}
+
+/* Add some creative styling */
+#details, #links, #skills, #hobbies, #languages, #profile, #employment-history, #education, #courses {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+#details h2, #links h2, #skills h2, #hobbies h2, #languages h2, #profile h2, #employment-history h2, #education h2, #courses h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Additional creative styling */
+#details p, #links p, #hobbies p, #languages p, #profile p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+#details p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#details a, #links a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#details a:hover, #links a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+#skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Additional creative styling can be added as needed */
